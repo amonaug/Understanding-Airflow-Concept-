@@ -2879,3 +2879,59 @@ NameError: name 'greet' is not defined
 [2025-12-17T19:42:32.419+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:42:32.419+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-12-17T19:42:32.460+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:42:32.460+0000] {dag.py:4180} INFO - Setting next_dagrun for first_dag_with_python_operator_v6 to 2025-12-17 00:00:00+00:00, run_after=2025-12-18 00:00:00+00:00
 [2025-12-17T19:42:32.496+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_dag_wirh_python_operator.py took 0.145 seconds
+[2025-12-17T19:43:02.732+0000] {processor.py:186} INFO - Started process (PID=4319) to work on /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:43:02.735+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_dag_wirh_python_operator.py for tasks to queue
+[2025-12-17T19:43:02.736+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:43:02.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:43:02.755+0000] {processor.py:925} INFO - DAG(s) 'first_dag_with_python_operator_v6' retrieved from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:43:02.888+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:43:02.888+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-17T19:43:02.942+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:43:02.941+0000] {dag.py:4180} INFO - Setting next_dagrun for first_dag_with_python_operator_v6 to 2025-12-17 00:00:00+00:00, run_after=2025-12-18 00:00:00+00:00
+[2025-12-17T19:43:04.472+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_dag_wirh_python_operator.py took 1.751 seconds
+[2025-12-17T19:43:36.032+0000] {processor.py:186} INFO - Started process (PID=4355) to work on /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:43:36.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_dag_wirh_python_operator.py for tasks to queue
+[2025-12-17T19:43:36.040+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:43:36.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:43:36.071+0000] {processor.py:925} INFO - DAG(s) 'first_dag_with_python_operator_v6' retrieved from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:43:36.437+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:43:36.436+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-17T19:43:37.268+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:43:37.266+0000] {dag.py:4180} INFO - Setting next_dagrun for first_dag_with_python_operator_v6 to 2025-12-17 00:00:00+00:00, run_after=2025-12-18 00:00:00+00:00
+[2025-12-17T19:43:37.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_dag_wirh_python_operator.py took 1.315 seconds
+[2025-12-17T19:44:07.607+0000] {processor.py:186} INFO - Started process (PID=4391) to work on /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:44:07.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_dag_wirh_python_operator.py for tasks to queue
+[2025-12-17T19:44:07.628+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:44:07.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:44:07.670+0000] {processor.py:925} INFO - DAG(s) 'first_dag_with_python_operator_v6' retrieved from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:44:07.839+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:44:07.838+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-17T19:44:08.470+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:44:08.470+0000] {dag.py:4180} INFO - Setting next_dagrun for first_dag_with_python_operator_v6 to 2025-12-17 00:00:00+00:00, run_after=2025-12-18 00:00:00+00:00
+[2025-12-17T19:44:08.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_dag_wirh_python_operator.py took 0.935 seconds
+[2025-12-17T19:44:38.698+0000] {processor.py:186} INFO - Started process (PID=4428) to work on /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:44:38.709+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_dag_wirh_python_operator.py for tasks to queue
+[2025-12-17T19:44:38.713+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:44:38.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:44:38.821+0000] {processor.py:925} INFO - DAG(s) 'first_dag_with_python_operator_v6' retrieved from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:44:39.187+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:44:39.186+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-17T19:44:39.496+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:44:39.495+0000] {dag.py:4180} INFO - Setting next_dagrun for first_dag_with_python_operator_v6 to 2025-12-17 00:00:00+00:00, run_after=2025-12-18 00:00:00+00:00
+[2025-12-17T19:44:39.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_dag_wirh_python_operator.py took 0.962 seconds
+[2025-12-17T19:45:09.914+0000] {processor.py:186} INFO - Started process (PID=4461) to work on /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:45:09.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_dag_wirh_python_operator.py for tasks to queue
+[2025-12-17T19:45:09.918+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:45:09.918+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:45:09.935+0000] {processor.py:925} INFO - DAG(s) 'first_dag_with_python_operator_v6' retrieved from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:45:09.982+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:45:09.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-17T19:45:10.036+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:45:10.035+0000] {dag.py:4180} INFO - Setting next_dagrun for first_dag_with_python_operator_v6 to 2025-12-17 00:00:00+00:00, run_after=2025-12-18 00:00:00+00:00
+[2025-12-17T19:45:10.066+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_dag_wirh_python_operator.py took 0.161 seconds
+[2025-12-17T19:45:40.483+0000] {processor.py:186} INFO - Started process (PID=4497) to work on /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:45:40.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_dag_wirh_python_operator.py for tasks to queue
+[2025-12-17T19:45:40.487+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:45:40.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:45:40.513+0000] {processor.py:925} INFO - DAG(s) 'first_dag_with_python_operator_v6' retrieved from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:45:40.726+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:45:40.725+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-17T19:45:40.788+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:45:40.787+0000] {dag.py:4180} INFO - Setting next_dagrun for first_dag_with_python_operator_v6 to 2025-12-17 00:00:00+00:00, run_after=2025-12-18 00:00:00+00:00
+[2025-12-17T19:45:40.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_dag_wirh_python_operator.py took 0.366 seconds
+[2025-12-17T19:46:11.185+0000] {processor.py:186} INFO - Started process (PID=4533) to work on /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:46:11.188+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_dag_wirh_python_operator.py for tasks to queue
+[2025-12-17T19:46:11.192+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:46:11.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:46:11.229+0000] {processor.py:925} INFO - DAG(s) 'first_dag_with_python_operator_v6' retrieved from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:46:11.306+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:46:11.305+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-17T19:46:11.361+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:46:11.361+0000] {dag.py:4180} INFO - Setting next_dagrun for first_dag_with_python_operator_v6 to 2025-12-17 00:00:00+00:00, run_after=2025-12-18 00:00:00+00:00
+[2025-12-17T19:46:11.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_dag_wirh_python_operator.py took 0.580 seconds
+[2025-12-17T19:46:42.124+0000] {processor.py:186} INFO - Started process (PID=4569) to work on /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:46:42.126+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_dag_wirh_python_operator.py for tasks to queue
+[2025-12-17T19:46:42.127+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:46:42.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:46:42.141+0000] {processor.py:925} INFO - DAG(s) 'first_dag_with_python_operator_v6' retrieved from /opt/airflow/dags/create_dag_wirh_python_operator.py
+[2025-12-17T19:46:42.242+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:46:42.241+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-12-17T19:46:42.510+0000] {logging_mixin.py:190} INFO - [2025-12-17T19:46:42.510+0000] {dag.py:4180} INFO - Setting next_dagrun for first_dag_with_python_operator_v6 to 2025-12-17 00:00:00+00:00, run_after=2025-12-18 00:00:00+00:00
+[2025-12-17T19:46:42.872+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_dag_wirh_python_operator.py took 0.755 seconds
