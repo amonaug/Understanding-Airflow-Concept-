@@ -1,0 +1,22 @@
+[2025-12-15T19:37:53.202+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-12-15T19:37:53.766+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: our_first_dag.first_task manual__2025-12-15T19:37:14.805339+00:00 [queued]>
+[2025-12-15T19:37:53.897+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: our_first_dag.first_task manual__2025-12-15T19:37:14.805339+00:00 [queued]>
+[2025-12-15T19:37:53.898+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 6
+[2025-12-15T19:37:54.000+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): first_task> on 2025-12-15 19:37:14.805339+00:00
+[2025-12-15T19:37:54.408+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=383) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-12-15T19:37:54.326+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'our_first_dag', 'first_task', 'manual__2025-12-15T19:37:14.805339+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/our_first_dag.py', '--cfg-path', '/tmp/tmpaqgdgw8s']
+[2025-12-15T19:37:54.488+0000] {standard_task_runner.py:105} INFO - Job 3: Subtask first_task
+[2025-12-15T19:37:54.488+0000] {standard_task_runner.py:72} INFO - Started process 389 to run task
+[2025-12-15T19:38:00.082+0000] {task_command.py:467} INFO - Running <TaskInstance: our_first_dag.first_task manual__2025-12-15T19:37:14.805339+00:00 [running]> on host fd4cece0ef2c
+[2025-12-15T19:38:03.164+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='pedro' AIRFLOW_CTX_DAG_ID='our_first_dag' AIRFLOW_CTX_TASK_ID='first_task' AIRFLOW_CTX_EXECUTION_DATE='2025-12-15T19:37:14.805339+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-15T19:37:14.805339+00:00'
+[2025-12-15T19:38:03.185+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-12-15T19:38:03.535+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-12-15T19:38:03.547+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo hello world this is the first task']
+[2025-12-15T19:38:03.629+0000] {subprocess.py:99} INFO - Output:
+[2025-12-15T19:38:04.151+0000] {subprocess.py:106} INFO - hello world this is the first task
+[2025-12-15T19:38:04.176+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-12-15T19:38:04.811+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-12-15T19:38:04.815+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=our_first_dag, task_id=first_task, run_id=manual__2025-12-15T19:37:14.805339+00:00, execution_date=20251215T193714, start_date=20251215T193753, end_date=20251215T193804
+[2025-12-15T19:38:04.917+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-12-15T19:38:04.992+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-12-15T19:38:04.995+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
